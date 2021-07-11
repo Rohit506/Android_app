@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    tools:context=".StudentRegistration">
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textSize="32sp"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="ENTER ID"
+        android:id="@+id/sid"/>
+    <EditText
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="ENTER NAME"
+        android:id="@+id/sname"/>
+    <EditText
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="ENTER BRANCH"
+        android:id="@+id/sbranch"/>
+    <EditText
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="ENTER AGE"
+        android:id="@+id/sage"/>
+    <LinearLayout
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload image"
+            android:id="@+id/select"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+    <Button
+        android:layout_marginBottom="16dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/register"
+        android:background="@drawable/buttondesign"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+</LinearLayout>

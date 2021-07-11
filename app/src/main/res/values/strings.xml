@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="welcome_in_my_first_app">WelCome in My First App</string>
+    <string-array name="my_color">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+
+    </string-array>
+    <string name="channel_name">EICT KANPUR</string>
+    <string name="channel_desc">KANPUR EICT APP</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

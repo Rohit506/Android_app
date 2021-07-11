@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"
+        android:text="Count= 0"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FB2D46D5"
+        android:background="#52BBD2E0"
+        android:layout_marginBottom="16dp"
+        />
+    
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INCREMENT"
+        android:textSize="36sp"
+        android:background="#174D19"
+        android:textStyle="bold"
+        android:textColor="#3DDD19"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DECREMENT"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:background="#4D403F"
+        android:textColor="#E85524"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:background="#000"
+        android:textColor="#F8E753"
+        />
+
+
+</LinearLayout>

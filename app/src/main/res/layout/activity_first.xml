@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_in_my_first_app"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="generateBroadCast"
+        android:text="Send Broadcast" />
+
+</LinearLayout>
+
